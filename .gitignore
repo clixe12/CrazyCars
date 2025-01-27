@@ -1,0 +1,48 @@
+# Ignorar carpetas de Unity que no deben ser subidas
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+
+# Archivos temporales generados por Unity
+*.pidb
+*.booproj
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Archivos generados por Visual Studio y otros IDEs
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Archivos de preferencias de Unity
+*.pidb.meta
+
+# Archivos de crash de Unity
+sysinfo.txt
+
+# Archivos que no queremos compartir
+.DS_Store    # Para macOS
+Thumbs.db    # Para Windows
+
+# Ignorar carpeta de backups de Visual Studio (si usas)
+.vscode/
+.idea/
+
+# Archivos generados por Unity en el build
+Build/
+
+# Archivos que no se deben rastrear en Git
+*.apk
+*.aab
+*.exe
+*.dll
+*.dylib
